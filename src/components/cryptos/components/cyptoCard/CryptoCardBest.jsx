@@ -60,7 +60,9 @@ const CryptoCardBest = () => {
   return (
     <div className='card mt-1'>
       <Divider><strong>BestCoins</strong></Divider>
-      <Table columns={columns} dataSource={bestCoins} key={bestCoins.uuid}  size="middle" />
+      <Table columns={columns} dataSource={bestCoins} key={bestCoins.uuid} 
+       size="middle"
+       scroll={{ x: "max-content" }}  />
     </div>
   )
 }
