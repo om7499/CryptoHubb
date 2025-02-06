@@ -1,0 +1,31 @@
+
+
+.ant-steps-item-tail {
+    height: 6px !important; /* Adjust thickness */    
+  }
+
+  /* Bigger dots */
+.ant-steps-item-icon {
+    width: 12px !important;  /* Increase size */
+    height: 12px !important; /* Increase size */
+    font-size: 10px !important; /* Adjust inner dot size */
+  }
+  
+  .ant-steps-item-icon > span {
+    width: 14px !important;  /* Inner dot */
+    height: 14px !important;
+  }
+  
+  
+
+  /* White text for steps */
+.ant-steps-item-title,
+.ant-steps-item-description {
+  color: white !important;
+}
+
+/* Adjust for active step text */
+.ant-steps-item-process .ant-steps-item-title {
+  color: white !important;
+  font-weight: bold;
+}
