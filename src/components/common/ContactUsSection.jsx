@@ -1,6 +1,7 @@
 import React from 'react'
 import { Image } from 'antd';
 import { Button, Form, Input, InputNumber } from 'antd';
+import map from '../../assets/hero_maps_static_api.png'
 const layout = {
     labelCol: {
       span: 8,
@@ -97,7 +98,7 @@ const ContactUsSection = () => {
                 onChange: (current, prev) => console.log(`current index: ${current}, prev index: ${prev}`),
                 }}
             >
-                <Image  src="./src/assets/hero_maps_static_api.png" />
+                <Image  src={map} />
                
             </Image.PreviewGroup>
           </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import hero from '../../assets/hero-img.svg'
 const Herosection = () => {
   return (
     <div className="container text-white py-5 my-3 border-bottom border-2">
@@ -23,7 +23,7 @@ const Herosection = () => {
       {/* Right Section */}
       <div className="col-md-6 col-lg-4 bg-transparent p-4 rounded shadow-lg text-center gap-4">
       <div className='m-auto'>
-        <img src="./src/assets/hero-img.svg" className='img-fluid ' alt="bitcoin" />
+        <img src={hero} className='img-fluid ' alt="bitcoin" />
       </div>
       </div>
     </div>
