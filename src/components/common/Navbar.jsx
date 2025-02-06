@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import logo from '../../assets/logo.avif'
 const Navbar = () => {
   return (
     <>
@@ -8,7 +9,7 @@ const Navbar = () => {
         <div className="container">
           {/* Brand Logo */}
           <NavLink className="navbar-brand fs-3 fw-bold" to="/">
-            <img src="./src/assets/logo.avif" alt="logo" style={{width:"30px",height:"30px",borderRadius:"50%"}} /> CryptoHubb
+            <img src={logo} alt="logo" style={{width:"30px",height:"30px",borderRadius:"50%"}} /> CryptoHubb
           </NavLink>
 
           {/* Toggle Button for Mobile */}

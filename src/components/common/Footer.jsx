@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import logo from '../../assets/logo.avif'
 const Footer = () => {
   return (
     <div className='contaner-fluid border p-3 textcolor-footer'>
@@ -7,7 +8,7 @@ const Footer = () => {
         <div className="col-12 col-sm-6 col-md-3 col-lg-3">
             <div className='footer-links ps-3'>
             <NavLink className="navbar-brand fs-3 fw-bold " to="/">
-            <img src="./src/assets/logo.avif" alt="logo" style={{width:"30px",height:"30px",borderRadius:"50%"}} /> CryptoHubb</NavLink>
+            <img src={logo} alt="logo" style={{width:"30px",height:"30px",borderRadius:"50%"}} /> CryptoHubb</NavLink>
             <p>&copy;2025 CryptoHubb</p>
             <p className='cocial-media-links d-flex '>
               <a href="" className='nav-link text-primary fs-2'><i className="bi bi-facebook"></i></a>
